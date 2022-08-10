@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #fefff4;
+}
+
+h1 {
+    color: #6b8e23;
+}
+
+h2 {
+    color: #8b4513;
+}
+
+.card1 {
+    border: #d0e2e3;
+    border-radius: 10px;
+    background-color: #d0e2e3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card2 {
+    border: #e1d0e3;
+    border-radius: 10px;
+    background-color: #e1d0e3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.photo-text {
+    display: flex;
+}
+
+#photo {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    height: auto;
+    width: 256px;
+}
+
+#photo-link {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.social {
+    color: #a9a9a9;
+    text-decoration: none;
+    transition: all 300ms ease;
+}
+
+#telegram:hover {
+    color: cornflowerblue;
+}
+
+#behance:hover{
+    color: #0000ff;
+}
+
+.btn{
+    background-color: #6495ed;
+    color: #f0f8ff;
+    border: #6495ed;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.btn:hover {
+    background-color: #cd5c5c;
+}
+
+.table th{
+    padding: 10px;
+}
+
+.table td {
+    text-align: center;
+}
+
+.footer {
+    background-color: #c2c0c0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer textarea, .footer input {
+    background-color: #e4e1e1;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+@media (max-width: 600px) {
+    .card1 {
+        text-align: center;
+    }
+
+    .card2 {
+        text-align: center;
+    }
+
+    .photo-text {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (min-width: 601px) {
+    .block {
+        margin-top: 70px;
+    }
+}
